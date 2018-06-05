@@ -1,9 +1,17 @@
-# Using reinforcement learning to train an autonomous vehicle to avoid obstacles
+# Using Reinforcement Learning To Train An Autonomous Vehicle To Learn Driving
 
 This is a project I created to learn the basics of reinforcement learning. It uses Python3, Pygame, Keras. It uses Q-learning (unsupervised) algorithm to learn how to drive itself without running into obstacles.
 
 
-## Getting started
+## Getting Started
+
+### Quick Play
+
+For those who wants to see car driving itself in action, I have included one trained model in `saved-models` folder and the playing.py is configured to load that model so just run the following command.
+
+`python3 playing.py`
+
+To train your own model follow the following procedure.
 
 ### Training
 
